@@ -22,3 +22,8 @@ While in a lobby, you can press `Insert` to toggle filling empty spots in the ga
 There is some text at the bottom of the screen which shows whether it's enabled or not.
 
 If you are already in a game and there is a free spot, you can press the '0' key on the top of the alphanumeric keyboard to spawn a bot.
+
+## Compatibility
+
+Since the bots have to be owned by the player, you may face some issues while using other plugins which check `isOwned` on the player. 
+It will not only return `true` for you, but for the bots too.
